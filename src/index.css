@@ -1,0 +1,15 @@
+:root {
+  font-size: 16px;
+  --primary-bg-color: #3e3e3e;
+  --secondary-bg-color: #1a1a1a;
+  --primary-color: #ececec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app * {
+  color: var(--primary-color);
+}

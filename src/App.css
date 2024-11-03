@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav {
+  background-color: var(--primary-bg-color);
+}
+
+.logo {
+  height: 3.5rem;
+  padding: 0 1rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffc9);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: var(--secondary-bg-color);
+}
+
+.home-brief {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.home-btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background-color: var(--primary-bg-color);
+  text-decoration: none;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cm-theme-dark {
+  flex-grow: 1;
+}
+
+.cm-editor {
+  height: 100%;
+}
