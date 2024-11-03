@@ -5,8 +5,8 @@ import CodeMirror from '@uiw/react-codemirror';
 import Nav from '../../components/nav/Nav';
 import { useLocation } from 'react-router-dom';
 
-// const socket = io(`https://idea-editor-server.vercel.app/`);
-const socket = io(`http://localhost:8000`);
+const socket = io(`https://idea-editor-server.vercel.app`);
+// const socket = io(`http://localhost:8000`);
 
 const Code = () => {
     const [code, setCode] = useState("");
