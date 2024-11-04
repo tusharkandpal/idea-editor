@@ -5,9 +5,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import router from './router/router.tsx';
+import { CodeProvider } from './context/code-context.tsx';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // <StrictMode>
+  <CodeProvider>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </CodeProvider>
+  // </StrictMode>,
 )
