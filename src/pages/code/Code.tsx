@@ -5,7 +5,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import Nav from '../../components/nav/Nav';
 import { useLocation } from 'react-router-dom';
 
-const socket = io("https://waiting-tan-science.glitch.me",
+const socket = io("https://idea-editor-server.glitch.me",
     { path: "/socket.io", transports: ["websocket", "polling"], secure: true }
 );
 // const socket = io(`http://localhost:8000`);
